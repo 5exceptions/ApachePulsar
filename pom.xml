@@ -25,6 +25,7 @@
     <module>security-encryption</module>        
     <module>deduplication</module>        
     <module>batching</module>  
+    <module>performance-test</module>  
   </modules> 
   
   

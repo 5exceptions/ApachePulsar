@@ -14,12 +14,14 @@
 
 ##### Below is list of demos that show case Apache Pulsar® messaging and event streaming capabilities.
 -----------------------------------------
-##### [Simple Producer & Consumer](producer-consumer/README.md)
-##### [Compression](compression/README.md)
-##### [Encryption](security-encryption/README.md)
-##### [De-Duplication](deduplication/README.md)
-##### [Batching](batching/README.md)
+##### [Simple Producer & Consumer](producer-consumer/)
+##### [Compression](compression/)
+##### [Encryption](security-encryption/)
+##### [De-Duplication](deduplication/)
+##### [Batching](batching/)
 -----------------------------------------
 
+# ApachePulsar performance testing using Java
 
+##### [Performance Testing]([performance-test/)
 
