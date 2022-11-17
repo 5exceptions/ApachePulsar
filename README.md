@@ -23,5 +23,5 @@
 
 # ApachePulsar performance testing using Java
 
-##### [Performance Testing]([performance-test/)
+##### [Performance Testing](performance-test/)
 
