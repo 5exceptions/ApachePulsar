@@ -71,8 +71,10 @@ class PulsarProducer {
 			    .enableBatching(true)
 			    .batchingMaxPublishDelay(2, TimeUnit.MILLISECONDS)
 			    .batchingMaxMessages(5000)
-			    .batchingMaxBytes(1024 * 1024)
 			    .create();
+		
+		// 		.batchingMaxBytes(1024 * 1024)
+		
 	}
 
 	// Send or publish message to message queue
@@ -111,8 +113,10 @@ class PulsarProducer {
 	private PulsarClient getPulsarClient() throws PulsarClientException {
 		return PulsarClient.builder()	
 				.serviceUrl(mqServiceUrl)
-				.enableTransaction(true)
 				.build();
+		
+		// .enableTransaction(true)
+
 	}
 
 }

@@ -5,3 +5,4 @@ compression/.classpath
 deduplication/.classpath
 producer-consumer/.classpath
 security-encryption/.classpath
+performance-test/.classpath
